@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/bg">
+
+	<ImageView 
+		android:src="@drawable/logo2"
+			android:layout_width="match_parent" 
+			android:layout_height="150dp"
+		android:layout_margin="10dp"
+			android:id="@+id/imgHangmanTitle"/>
+	<Button 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/basic_map"
+			android:layout_margin="5dp" 
+			android:id="@+id/btnbase"
+			android:background="@drawable/button"
+			android:textColor="#228B22"/>
+		<Button 
+			android:text="@string/track"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp" 
+			android:id="@+id/btnlive"
+			android:background="@drawable/button"
+			android:textColor="#228B22"/>
+		<Button 
+			android:text="@string/dis_cal"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp" 
+			android:id="@+id/btndis"
+			android:background="@drawable/button"
+			android:textColor="#228B22"/>
+		<Button 
+			android:text="@string/quit"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp" 
+			android:id="@+id/btnQuit"
+			android:background="@drawable/button"
+			android:textColor="#228B22"/>
+		<TextView
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp" 
+			android:id="@+id/txtres"
+			android:textColor="#fff"/>
+
+</LinearLayout>
